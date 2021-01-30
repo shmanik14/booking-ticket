@@ -120,6 +120,35 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
-.plus-minus-btn span{
+.plus-minus-btn span, #book-btn, #confirm{
     cursor: pointer;
+}
+.highlight{
+    color:  #3352F2;
+    font-weight: 700;
+}
+.summary{
+    display: none;
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 60px;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #68676b;
+}
+.summary h4{
+    padding: 10px 0;
+}
+#summary-list{
+    border: 1px solid #3352f2;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#summary-list li{
+    padding: 7px 0;
+}
+#confirm{
+    margin-top: 40px;
 }
